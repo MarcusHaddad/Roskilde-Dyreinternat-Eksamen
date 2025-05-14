@@ -37,38 +37,38 @@ namespace ClassLibrary_Dyreinternat
         #endregion
 
         #region Properties
-        private int Id
+        public int Id
         {
             get { return _id; }
             set { _id = value; }
         }
-        private string Name
+        public string Name
         {
             get { return _name; }
             set { _name = value; }
         }
-        private string Species
+        public string Species
         {
             get { return _species; }
             set { _species = value; }
 
         }
-        private string Breed
+        public string Breed
         {
             get { return _breed; }
             set { _breed = value; }
         }
-        private string Size
+        public string Size
         {
             get { return _size; }
             set { _size = value; }
         }
-        private int BirthYear
+        public int BirthYear
         {
             get { return _birthYear; }
             set { _birthYear = value; }
         }
-        private string Medicalnote
+        public string Medicalnote
         {
             get { return _medicalnote; }
             set { _medicalnote = value; }
@@ -77,10 +77,13 @@ namespace ClassLibrary_Dyreinternat
         #endregion
 
         #region Methods
+        public override string ToString()
+        {
+            return $"name : {Name} - id : {Id} - species {Species} - breed {Breed} - size {Size} - birthyear {BirthYear} - medicalnote {Medicalnote}";
 
+            #endregion
 
-        #endregion
-
+        }
     }
 }
 
