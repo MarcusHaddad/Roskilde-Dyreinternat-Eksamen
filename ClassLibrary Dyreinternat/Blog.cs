@@ -22,6 +22,6 @@ namespace ClassLibrary_Dyreinternat
 
         public int AuthorId { get; set; }
 
-        public Employee Author { get; set; } // Hvem har skrevet det 
+        public Medarbejdere Author { get; set; } // Hvem har skrevet det 
     }
 }
