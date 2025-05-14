@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_Dyreinternat
 {
-    internal class Blog
+    public class Blog
     {
         public int Id { get; set; }
 
