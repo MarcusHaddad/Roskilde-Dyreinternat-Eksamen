@@ -84,6 +84,17 @@ namespace ClassLibrary_Dyreinternat
             #endregion
 
         }
+        public void VisInfo()
+        {
+            Console.WriteLine(Id);
+            Console.WriteLine(Name);
+            Console.WriteLine(Species);
+            Console.WriteLine(Breed);
+            Console.WriteLine(Size);
+            Console.WriteLine(BirthYear);
+            Console.WriteLine(Medicalnote);
+
+        }
     }
 }
 
