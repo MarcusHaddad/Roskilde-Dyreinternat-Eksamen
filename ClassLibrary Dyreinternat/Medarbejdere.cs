@@ -1,6 +1,6 @@
 ﻿namespace ClassLibrary_Dyreinternat
 {
-    public class Class1
+    public class Medarbejdere
     {
 
     }
