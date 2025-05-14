@@ -8,5 +8,6 @@ namespace ClassLibrary_Dyreinternat
 {
     internal class Internat
     {
+
     }
 }

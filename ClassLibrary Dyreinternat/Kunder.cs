@@ -8,5 +8,16 @@ namespace ClassLibrary_Dyreinternat
 {
     internal class Kunder
     {
+        public int Id { get; set; }
+
+        public string FullName { get; set; }
+
+        public string Email { get; set; }
+
+
+
+        // Bookinger lavet af kunden 
+
+        public List<Booking> Bookings { get; set; } = new List<Booking>();
     }
 }

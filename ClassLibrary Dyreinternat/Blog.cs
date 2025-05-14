@@ -8,5 +8,20 @@ namespace ClassLibrary_Dyreinternat
 {
     internal class Blog
     {
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+
+        public string Content { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+
+
+        public string ImageUrl { get; set; } // Valgfrit billede 
+
+        public int AuthorId { get; set; }
+
+        public Employee Author { get; set; } // Hvem har skrevet det 
     }
 }
