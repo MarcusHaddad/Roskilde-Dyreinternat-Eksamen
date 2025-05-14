@@ -14,6 +14,6 @@ namespace ClassLibrary_Dyreinternat
         public DateTime Date { get; set; }
 
         // Tilmeldte kunder
-        public List<Customer> Participants { get; set; } = new List<Customer>();
+        public List<Kunder> Participants { get; set; } = new List<Kunder>();
     }
 }
