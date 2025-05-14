@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_Dyreinternat
 {
-    internal class Kat
+    public class Dog
     {
+        public Dog() { Species = "Hund"; }
     }
 }

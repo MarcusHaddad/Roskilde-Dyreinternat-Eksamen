@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_Dyreinternat
 {
-    internal class Kanin
+    public class Bird
     {
+        public Bird() { Species = "Fugl"; }
     }
 }
