@@ -9,7 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary Dyreinternat\ClassLibrary Dyreinternat.csproj" />
+	      <ProjectReference Include="..\ClassLibrary Dyreinternat\ClassLibrary Dyreinternat.csproj" />
+ <ProjectReference Include="..\ClassLibrary Dyreinternat\ClassLibrary Dyreinternat.csproj" />
     <ProjectReference Include="..\Razor Page Dyreinternat\Razor Page Dyreinternat.csproj" />
   </ItemGroup>
 
