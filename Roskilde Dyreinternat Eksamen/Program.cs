@@ -12,9 +12,8 @@ namespace Roskilde_Dyreinternat_Eksamen
                 new Animal(17, "Karl", "Rabbit", "156700", "Giant rabbit", "Big", "2021", "good medicals"),
                 new Animal(21, "Frank", "Cat", "150055", "black cat", "small", "2024", "good medicals"),
                 new Animal(124, "Norm", "Bird", "150981", "Parrot", "small", "2020", "good medicals"),
-                new Animal(124, "Norm", "Bird", "150981", "Parrot", "small", "2020", "good medicals"),
-                new Animal(),
-                new Animal(),
+                new Animal(1242, "Gordon", "Guineapig", "202012", "Sheltie", "small", "2025", "good medicals"),
+               
 
 
             };
