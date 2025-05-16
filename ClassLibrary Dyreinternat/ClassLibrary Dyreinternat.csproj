@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Razor Page Dyreinternat\Razor Page Dyreinternat.csproj" />
+  </ItemGroup>
+
 </Project>
