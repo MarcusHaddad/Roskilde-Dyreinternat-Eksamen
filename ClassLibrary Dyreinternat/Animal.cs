@@ -16,12 +16,12 @@ namespace ClassLibrary_Dyreinternat
         string _chipNumber;
         string _breed;
         string _size;
-        int _birthYear;
+        string _birthYear;
         string _medicalnote;
         #endregion
 
         #region Constructor
-        public Animal(int id, string name, string species, string chipNumber, string breed, string size, int birthYear, string medicalnote)
+        public Animal(int id, string name, string species, string chipNumber, string breed, string size, string birthYear, string medicalnote)
         {
             _id = id;
             _name = name;
@@ -63,7 +63,7 @@ namespace ClassLibrary_Dyreinternat
             get { return _size; }
             set { _size = value; }
         }
-        public int BirthYear
+        public string BirthYear
         {
             get { return _birthYear; }
             set { _birthYear = value; }
