@@ -8,7 +8,7 @@ namespace ClassLibrary_Dyreinternat
 {
     public class Dog : Animal
     {
-        public Dog() { Species = "Hund"; }
+        public Dog() { Species = "Hund", ; }
     }
 
     public class Cat : Animal
