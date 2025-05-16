@@ -16,7 +16,7 @@ namespace ClassLibrary_Dyreinternat
         public Kunder Kunder { get; set; }
 
         // Relation til dyr (valgfrit)
-        public int? AnimalId { get; set; }
+        public int AnimalId { get; set; }
         public Animal Animal { get; set; }
     }
 }
