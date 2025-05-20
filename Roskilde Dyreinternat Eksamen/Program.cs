@@ -13,7 +13,9 @@ namespace Roskilde_Dyreinternat_Eksamen
                 new Animal(21, "Frank", "Cat", "150055", "black cat", "small", "2024", "good medicals"),
                 new Animal(124, "Norm", "Bird", "150981", "Parrot", "small", "2020", "good medicals"),
                 new Animal(1242, "Gordon", "Guineapig", "202012", "Sheltie", "small", "2025", "good medicals"),
-               
+                new Animal(1242, "Molly", "Cat", "202695", "Persian", "medium", "2019", "good medicals"), 
+                new Animal(1580, "Carlo", "Dog", "80584030", "Siberian Husky", "Big", "2023", "good medicals"),               
+                new Animal(1242, "Bertha", "Rabbit", "281960", "polish rabbit", "small", "2022", "good medicals"),
 
 
             };
@@ -21,7 +23,28 @@ namespace Roskilde_Dyreinternat_Eksamen
             {
                 animal.VisInfo();
             }
-                Console.ReadLine();
+            List<Kunder> kunde = new List<Kunder>();
+            {
+               
+             };
+
+            
+            foreach (var kunder in kunde) 
+            { 
+                 kunde.Add(kunder);
+            }
+
+            List<Medarbejdere> medarbejder = new List<Medarbejdere>();
+            {
+                Console.WriteLine(medarbejder.Count);
+                Console.WriteLine(medarbejder.);
+            }
+            foreach (var medarbejdere in medarbejder)
+            {
+                medarbejder.ReturnInfo();
+
+            }
+            Console.ReadLine();
                 Console.WriteLine("Hello, World!");
             
         }

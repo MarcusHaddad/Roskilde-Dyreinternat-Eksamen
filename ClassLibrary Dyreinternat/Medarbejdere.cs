@@ -9,5 +9,13 @@
         public string Role { get; set; } // Fx "Medarbejder" eller "Bestyrelse" 
 
         public string Email { get; set; }
+
+        public void ReturnInfo()
+        {
+            Console.WriteLine(Id);
+            Console.WriteLine(FullName);
+            Console.WriteLine(Role);
+            Console.WriteLine(Email);
+        }
     }
 }
