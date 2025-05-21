@@ -13,11 +13,11 @@ namespace ClassLibrary_Dyreinternat
 
         // Relation til kunde
         public int KunderId { get; set; }
-        public Kunder Kunder { get; set; }
+        public Kunder Kunder { get; set; } //referer til Kunder Objektet
 
         // Relation til dyr (valgfrit)
         public int AnimalId { get; set; }
-        public Animal Animal { get; set; }
+        public Animal Animal { get; set; } //referer til Animal Objektet
     }
 }
     

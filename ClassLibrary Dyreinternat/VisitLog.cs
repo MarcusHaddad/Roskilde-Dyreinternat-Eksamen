@@ -15,7 +15,7 @@ namespace ClassLibrary_Dyreinternat
 
         // Relation til dyret
         public int AnimalId { get; set; }
-        public Animal Animal { get; set; }
+        public Animal Animal { get; set; } //refererer til Animal Objektet
     }
 
 }
