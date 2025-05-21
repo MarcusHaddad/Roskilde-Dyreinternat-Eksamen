@@ -93,6 +93,7 @@ namespace ClassLibrary_Dyreinternat
             Console.WriteLine(Size);
             Console.WriteLine(BirthYear);
             Console.WriteLine(Medicalnote);
+            Console.WriteLine();
 
         }
     }
