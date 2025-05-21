@@ -16,6 +16,7 @@
             Console.WriteLine(FullName);
             Console.WriteLine(Role);
             Console.WriteLine(Email);
+            Console.ReadLine();
         }
     }
 }
