@@ -82,7 +82,8 @@ namespace ClassLibrary_Dyreinternat
             return $"name : {Name} - id : {Id} - species {Species} - breed {Breed} - size {Size} - birthyear {BirthYear} - medicalnote {Medicalnote}";
 
             #endregion
-
+            //Metode til at kalde ting i Animalklasse
+            
         }
         public void VisInfo()
         {

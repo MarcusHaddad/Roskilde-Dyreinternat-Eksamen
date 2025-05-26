@@ -36,11 +36,12 @@ namespace Roskilde_Dyreinternat_Eksamen
 
             List<Medarbejdere> medarbejder = new List<Medarbejdere>();
             {
-                new Medarbejdere();
-                new Medarbejdere();
-                new Medarbejdere();
-                new Medarbejdere();
                
+                medarbejder.Add(new Medarbejdere { });
+                medarbejder.Add(new Medarbejdere { });
+                medarbejder.Add(new Medarbejdere { });
+                medarbejder.Add(new Medarbejdere { });
+
                 Console.WriteLine(medarbejder.Count);
                 Console.WriteLine($"4 Medarbejdere");
 
