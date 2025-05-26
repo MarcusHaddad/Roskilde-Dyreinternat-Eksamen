@@ -42,7 +42,7 @@ namespace Roskilde_Dyreinternat_Eksamen
                 new Medarbejdere();
                
                 Console.WriteLine(medarbejder.Count);
-                Console.WriteLine();
+                Console.WriteLine($"4 Medarbejdere");
 
 
             }
