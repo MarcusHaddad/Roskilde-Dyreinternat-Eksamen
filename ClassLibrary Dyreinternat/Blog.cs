@@ -16,8 +16,6 @@ namespace ClassLibrary_Dyreinternat
 
         public DateTime CreatedAt { get; set; }
 
-
-
         public string ImageUrl { get; set; } // Valgfrit billede 
 
         public int AuthorId { get; set; }
